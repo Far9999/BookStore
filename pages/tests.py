@@ -1,6 +1,8 @@
 from django.test import TestCase
 from django.urls import reverse, resolve
+
 from .views import HomePageView
+
 
 class HomepageTests(TestCase):
     def test_url_exists_at_correct_loc(self):
